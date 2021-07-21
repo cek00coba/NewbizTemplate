@@ -1,0 +1,378 @@
+
+/* margin batas bawah */
+.mbb{
+    margin-bottom: 1.5rem !important;
+}
+.dropdown:hover>.dropdown-menu{
+    display: block;
+}
+.card-height{
+    height: 80%;
+}
+/* margin batas atas */
+.mbt{
+    margin-top: 3.5rem !important;
+}
+/* background nav */
+.bg-light1{
+    background-color :#b8c5f1 !important;
+}
+/* baground body */
+.bgbody{
+    background-color:#cdced0 !important;
+    
+    /* background-image: url('/upload/background/bgbody.jpg'); */
+}
+/* animation */
+.img-fluid1 {
+    max-width: 100%;
+    height: auto;
+}
+#intro .animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+/* area card */
+.card-body1{
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 0.25rem;
+}
+.card-margin{
+    margin-top: 8px;
+}
+.imgpost{
+    width: 100%;
+    height: 210px;
+    border: 1px solid #1f6f82;
+    -webkit-transition-duration: 0.3s;
+}
+.imgpost:hover{
+    -webkit-transform:scale(1.02);
+    -moz-transform:scale(1.02);
+    -o-transform:scale(1.02);
+    opacity: 1;
+    z-index: 2;
+}
+.imgpost2{
+    width: 100%;
+    height: 100px;
+    border: 1px solid #1f6f82;
+    -webkit-transition-duration: 0.3s;
+}
+.imgpost2:hover{
+    -webkit-transform:scale(1.02);
+    -moz-transform:scale(1.02);
+    -o-transform:scale(1.02);
+    opacity: 1;
+    z-index: 2;
+}
+.imgartikel{
+    width: 100%;
+    height: 350px;
+}
+
+.imgbg{
+    /* background-image: url('/upload/background/bg.jpg'); */
+    background-image: url('../img/background/bg.jpg');
+    width: 100%;
+}
+.heightslider{
+    height: 85% !important;
+}
+.colorcard1{
+        background-color: #f98c96;
+        text-align: center;
+}
+.colorcard2{
+        background-color: #f98c96;
+        text-align: center;
+        
+}
+.colorcard3{
+        background-color: #f98c96;
+        text-align: center;
+}
+.titlepost{
+    /* height: 50px; */
+    /* height: 35px; */
+    height: 20px;
+    font-size: small;
+    text-align: justify;
+    font-weight: bold;
+    font: -webkit-small-control;
+    margin-top: 8px;
+    margin-bottom: initial;
+}
+.colortitle{
+    color: #205171;
+}
+.colorlink{
+    color: #2d367b;
+}
+.cardtext {
+    text-align: justify;
+}
+.cardpost{
+    height: 300px;
+}
+.cardpostlayanan {
+    height: 170px;
+}
+.fonttitle{
+        font-family: cursive;
+        text-align-last: center;
+        margin-top: 5px;
+        font-size: x-large;
+        
+}
+.fontstyle{
+        font-family: auto;
+}
+/* alert style */
+.closealert{
+    text-align-last: right;
+}
+.suksesalert{
+    text-align-last: left;
+}
+
+/* end area card */
+.img-wa{
+    right: 5%;
+    width: 6%;
+    height: 12%;
+    display: inline;
+    background: url('/upload/logo/watshap.png');
+}
+.fixed-bottom1 {
+    position: fixed;
+    right: 0%;
+    bottom: 20px;
+    left: 91%;
+    z-index: 1030;
+}
+
+.imgslider{
+    width: 100%;
+    height: 250px;
+}
+
+/* media mobile */
+/* slider utama */
+  @media (min-width: 320px) {
+      .imgslider {
+          width: 100%;
+          height: 150px;
+      }
+  }
+    @media (min-width: 360px) {
+        .imgslider {
+            width: 100%;
+            height: 190px;
+        }
+    }
+  @media (min-width: 480px) {
+      .imgslider {
+          width: 100%;
+          height: 200px;
+      }
+  }
+    @media (min-width: 720px) {
+        .imgslider {
+            width: 100%;
+            height: 250px;
+        }
+    }
+/* end slider utama */
+
+/* media img postingan */
+@media (min-width: 320px) {
+    .imgpost {
+        width: 100%;
+        height: 150px;
+    }
+}
+
+@media (min-width: 360px) {
+    .imgpost {
+        width: 100%;
+        height: 190px;
+    }
+}
+
+@media (min-width: 480px) {
+    .imgpost {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media (min-width: 720px) {
+    .imgpost {
+        width: 100%;
+        height: 135px;
+    }
+}
+@media (min-width: 920px) {
+    .imgpost {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+/* media img postingan */
+@media (min-width: 320px) {
+    .imgpost2 {
+        width: 100%;
+        height: 135px;
+    }
+}
+
+@media (min-width: 360px) {
+    .imgpost2 {
+        width: 100%;
+        height: 165px;
+    }
+}
+
+@media (min-width: 480px) {
+    .imgpost2 {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media (min-width: 720px) {
+    .imgpost2 {
+        width: 100%;
+        height: 95px;
+    }
+}
+
+@media (min-width: 920px) {
+    .imgpost2 {
+        width: 100%;
+        height: 100px;
+    }
+}
+
+/* media img postingan */
+@media (min-width: 320px) {
+    .imgpost {
+        width: 100%;
+        height: 160px;
+    }
+}
+
+@media (min-width: 360px) {
+    .imgpost {
+        width: 100%;
+        height: 160px;
+    }
+}
+
+@media (min-width: 480px) {
+    .imgpost {
+        width: 100%;
+        height: 160px;
+    }
+}
+
+@media (min-width: 720px) {
+    .imgpost {
+        width: 100%;
+        height: 135px;
+    }
+}
+@media (min-width: 920px) {
+    .imgpost {
+        width: 100%;
+        height: 160px;
+    }
+}
+/* media utton baca selengkapnya */
+.imgslideriklan {
+    width: 100%;
+    height: 200px;
+}
+/* media img postingan */
+@media (min-width: 320px) {
+    .imgslideriklan {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media (min-width: 360px) {
+    .imgslideriklan {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media (min-width: 480px) {
+    .imgslideriklan {
+       width: 100%;
+       height: 130px;
+    }
+}
+
+@media (min-width: 720px) {
+    .imgslideriklan {
+        width: 100%;
+        height: 150px;
+    }
+}
+
+@media (min-width: 920px) {
+    .imgslideriklan {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+
+/* table backend */
+.table1{
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #858796;
+}
+/* media table */
+@media (min-width: 320px) {
+    .table1 {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media (min-width: 360px) {
+    .table1 {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media (min-width: 480px) {
+    .table1 {
+        width: 100%;
+        height: 130px;
+    }
+}
+
+@media (min-width: 720px) {
+    .table1 {
+        width: 100%;
+        height: 150px;
+    }
+}
+
+@media (min-width: 920px) {
+    .table1 {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+
+/* end media mobile */
